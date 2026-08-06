@@ -1,0 +1,260 @@
+## version $VER: dos.catalog 1.0 (06.08.2026)
+## language hrvatski
+## codeset 5
+;
+MSG_ERROR_NO_FREE_STORE
+nedovoljno slobodne memorije
+; not enough memory available
+;
+MSG_ERROR_TASK_TABLE_FULL
+tablica procesa je puna
+; process table full
+;
+MSG_ERROR_BAD_TEMPLATE
+neispravan predlo¾ak
+; bad template
+;
+MSG_ERROR_BAD_NUMBER
+neispravan broj
+; bad number
+;
+MSG_ERROR_REQUIRED_ARG_MISSING
+nedostaje obavezan argument
+; required argument missing
+;
+MSG_ERROR_KEY_NEEDS_ARG
+nedostaje vrijednost nakon kljuène rijeèi
+; value after keyword missing
+;
+MSG_ERROR_TOO_MANY_ARGS
+pogre¹an broj argumenata
+; wrong number of arguments
+;
+MSG_ERROR_UNMATCHED_QUOTES
+neupareni navodnici
+; unmatched quotes
+;
+MSG_ERROR_LINE_TOO_LONG
+redak argumenata neispravan ili predug
+; argument line invalid or too long
+;
+MSG_ERROR_FILE_NOT_OBJECT
+datoteka nije izvr¹na
+; file is not executable
+;
+MSG_ERROR_INVALID_RESIDENT_LIBRARY
+neispravna rezidentna biblioteka
+; invalid resident library
+;
+MSG_ERROR_NO_DEFAULT_DIR
+nema zadanog direktorija
+; no default directory
+;
+MSG_ERROR_OBJECT_IN_USE
+objekt je u upotrebi
+; object is in use
+;
+MSG_ERROR_OBJECT_EXISTS
+objekt veæ postoji
+; object already exists
+;
+MSG_ERROR_DIR_NOT_FOUND
+direktorij nije pronaðen
+; directory not found
+;
+MSG_ERROR_OBJECT_NOT_FOUND
+objekt nije pronaðen
+; object not found
+;
+MSG_ERROR_BAD_STREAM_NAME
+neispravan opis prozora
+; invalid window description
+;
+MSG_ERROR_OBJECT_TOO_LARGE
+objekt je prevelik
+; object too large
+;
+MSG_ERROR_ACTION_NOT_KNOWN
+nepoznat tip radnje datoteènog sustava
+; filesystem action type unknown
+;
+MSG_ERROR_INVALID_COMPONENT_NAME
+neispravno ime objekta
+; object name invalid
+;
+MSG_ERROR_INVALID_LOCK
+neispravno zakljuèavanje objekta
+; invalid object lock
+;
+MSG_ERROR_OBJECT_WRONG_TYPE
+objekt nije tra¾enog tipa
+; object is not of required type
+;
+MSG_ERROR_DISK_NOT_VALIDATED
+disk nije validiran
+; disk not validated
+;
+MSG_ERROR_DISK_WRITE_PROTECTED
+disk je za¹tiæen od pisanja
+; disk is write-protected
+;
+MSG_ERROR_RENAME_ACROSS_DEVICES
+poku¹aj preimenovanja izmeðu ureðaja
+; rename across devices attempted
+;
+MSG_ERROR_DIRECTORY_NOT_EMPTY
+direktorij nije prazan
+; directory not empty
+;
+MSG_ERROR_TOO_MANY_LEVELS
+previ¹e razina
+; too many levels
+;
+MSG_ERROR_DEVICE_NOT_MOUNTED
+ureðaj (ili volumen) nije montiran
+; device (or volume) is not mounted
+;
+MSG_ERROR_SEEK_ERROR
+neuspjelo pozicioniranje
+; seek failure
+;
+MSG_ERROR_COMMENT_TOO_BIG
+komentar je predugaèak
+; comment is too long
+;
+MSG_ERROR_DISK_FULL
+disk je pun
+; disk is full
+;
+MSG_ERROR_DELETE_PROTECTED
+objekt je za¹tiæen od brisanja
+; object is protected from deletion
+;
+MSG_ERROR_WRITE_PROTECTED
+datoteka je za¹tiæena od pisanja
+; file is write protected
+;
+MSG_ERROR_READ_PROTECTED
+datoteka je za¹tiæena od èitanja
+; file is read protected
+;
+MSG_ERROR_NOT_A_DOS_DISK
+nije ispravan DOS disk
+; not a valid DOS disk
+;
+MSG_ERROR_NO_DISK
+nema diska u pogonu
+; no disk in drive
+;
+MSG_ERROR_NO_MORE_ENTRIES
+nema vi¹e unosa u direktoriju
+; no more entries in directory
+;
+MSG_ERROR_IS_SOFT_LINK
+objekt je meka poveznica
+; object is soft link
+;
+MSG_ERROR_OBJECT_LINKED
+objekt je povezan
+; object is linked
+;
+MSG_ERROR_BAD_HUNK
+neispravan hunk izvr¹ne datoteke
+; bad loadfile hunk
+;
+MSG_ERROR_NOT_IMPLEMENTED
+funkcija nije implementirana
+; function not implemented
+;
+MSG_ERROR_RECORD_NOT_LOCKED
+zapis nije zakljuèan
+; record not locked
+;
+MSG_ERROR_LOCK_COLLISION
+sukob zakljuèavanja zapisa
+; record lock collision
+;
+MSG_ERROR_LOCK_TIMEOUT
+isteklo vrijeme zakljuèavanja zapisa
+; record lock timeout
+;
+MSG_ERROR_UNLOCK_ERROR
+pogre¹ka pri otkljuèavanju zapisa
+; record unlock error
+;
+MSG_ERROR_BUFFER_OVERFLOW
+prekoraèenje meðuspremnika
+; buffer overflow
+;
+MSG_ERROR_BREAK
+***Prekid
+; ***Break
+;
+MSG_ERROR_NOT_EXECUTABLE
+datoteka nije izvr¹na
+; file not executable
+;
+MSG_STRING_DISK_NOT_VALIDATED
+Volumen "%s" nije validiran
+; Volume "%s" is not validated
+;
+MSG_STRING_DISK_WRITE_PROTECTED
+Volumen "%s" je za¹tiæen od pisanja
+; Volume "%s" is write protected
+;
+MSG_STRING_DEVICE_NOT_MOUNTED_INSERT
+Molimo umetnite volumen "%s" u bilo koji pogon
+; Please insert volume "%s" in any drive
+;
+MSG_STRING_DEVICE_NOT_MOUNTED_REPLACE
+Molimo vratite volumen "%s" u bilo koji pogon
+; Please replace volume "%s" in any drive
+;
+MSG_STRING_DEVICE_NOT_MOUNTED_REPLACE_TARGET
+Molimo vratite volumen "%s" u "%s"
+; Please replace volume "%s" in "%s"
+;
+MSG_STRING_DISK_FULL
+Volumen "%s" je pun
+; Volume "%s" is full
+;
+MSG_STRING_NOT_A_DOS_DISK
+Disk u "%s" nije DOS disk
+; Not a DOS disk in "%s"
+;
+MSG_STRING_NO_DISK
+Nema diska u "%s"
+; No disk present in "%s"
+;
+MSG_STRING_ABORT_BUSY
+MORATE vratiti volumen "%s" u "%s"!
+; You MUST replace volume "%s" in "%s"!
+;
+MSG_STRING_ABORT_DISK_ERROR
+Volumen "%s" ima pogre¹ku èitanja/pisanja
+; Volume "%s" has a read/write error
+;
+MSG_STRING_RETRY
+Ponovi
+; Retry
+;
+MSG_STRING_CANCEL
+Odustani
+; Cancel
+;
+MSG_STRING_REQUESTTITLE
+Zahtjev sustava
+; System requester
+;
+MSG_ERROR_NO_MATCHING_ELSEENDIF
+nema odgovarajuæeg Else ili EndIf
+; no matching Else or EndIf
+;
+MSG_ERROR_SCRIPT_ONLY
+ova naredba smije se koristiti samo u naredbenim datotekama
+; this command is supposed to be used in command files only
+;
+MSG_ERROR_UNKNOWN
+nedefinirana pogre¹ka
+; undefined error
+;

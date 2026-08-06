@@ -1,0 +1,260 @@
+## version $VER: dos.catalog 1.0 (06.08.2026)
+## language euskara
+## codeset 0
+;
+MSG_ERROR_NO_FREE_STORE
+ez dago nahikoa memoria erabilgarri
+; not enough memory available
+;
+MSG_ERROR_TASK_TABLE_FULL
+prozesu-taula beteta dago
+; process table full
+;
+MSG_ERROR_BAD_TEMPLATE
+txantiloi okerra
+; bad template
+;
+MSG_ERROR_BAD_NUMBER
+zenbaki okerra
+; bad number
+;
+MSG_ERROR_REQUIRED_ARG_MISSING
+beharrezko argumentua falta da
+; required argument missing
+;
+MSG_ERROR_KEY_NEEDS_ARG
+gako-hitzaren ondorengo balioa falta da
+; value after keyword missing
+;
+MSG_ERROR_TOO_MANY_ARGS
+argumentu kopuru okerra
+; wrong number of arguments
+;
+MSG_ERROR_UNMATCHED_QUOTES
+itxi gabeko komatxoak
+; unmatched quotes
+;
+MSG_ERROR_LINE_TOO_LONG
+argumentu-lerroa baliogabea edo luzeegia da
+; argument line invalid or too long
+;
+MSG_ERROR_FILE_NOT_OBJECT
+fitxategia ez da exekutagarria
+; file is not executable
+;
+MSG_ERROR_INVALID_RESIDENT_LIBRARY
+liburutegi egoiliar baliogabea
+; invalid resident library
+;
+MSG_ERROR_NO_DEFAULT_DIR
+ez dago direktorio lehenetsirik
+; no default directory
+;
+MSG_ERROR_OBJECT_IN_USE
+objektua erabiltzen ari da
+; object is in use
+;
+MSG_ERROR_OBJECT_EXISTS
+objektua badago lehendik
+; object already exists
+;
+MSG_ERROR_DIR_NOT_FOUND
+ez da direktorioa aurkitu
+; directory not found
+;
+MSG_ERROR_OBJECT_NOT_FOUND
+ez da objektua aurkitu
+; object not found
+;
+MSG_ERROR_BAD_STREAM_NAME
+leiho-deskribapen baliogabea
+; invalid window description
+;
+MSG_ERROR_OBJECT_TOO_LARGE
+objektua handiegia da
+; object too large
+;
+MSG_ERROR_ACTION_NOT_KNOWN
+fitxategi-sistemaren ekintza mota ezezaguna
+; filesystem action type unknown
+;
+MSG_ERROR_INVALID_COMPONENT_NAME
+objektu-izen baliogabea
+; object name invalid
+;
+MSG_ERROR_INVALID_LOCK
+objektu-blokeo baliogabea
+; invalid object lock
+;
+MSG_ERROR_OBJECT_WRONG_TYPE
+objektua ez da behar den motakoa
+; object is not of required type
+;
+MSG_ERROR_DISK_NOT_VALIDATED
+diskoa balioztatu gabe dago
+; disk not validated
+;
+MSG_ERROR_DISK_WRITE_PROTECTED
+diskoa idazketatik babestuta dago
+; disk is write-protected
+;
+MSG_ERROR_RENAME_ACROSS_DEVICES
+gailu batetik bestera berrizendatzen saiatu da
+; rename across devices attempted
+;
+MSG_ERROR_DIRECTORY_NOT_EMPTY
+direktorioa ez dago hutsik
+; directory not empty
+;
+MSG_ERROR_TOO_MANY_LEVELS
+maila gehiegi
+; too many levels
+;
+MSG_ERROR_DEVICE_NOT_MOUNTED
+gailua (edo bolumena) ez dago muntatuta
+; device (or volume) is not mounted
+;
+MSG_ERROR_SEEK_ERROR
+kokatze-hutsegitea
+; seek failure
+;
+MSG_ERROR_COMMENT_TOO_BIG
+iruzkina luzeegia da
+; comment is too long
+;
+MSG_ERROR_DISK_FULL
+diskoa beteta dago
+; disk is full
+;
+MSG_ERROR_DELETE_PROTECTED
+objektua ezabatzetik babestuta dago
+; object is protected from deletion
+;
+MSG_ERROR_WRITE_PROTECTED
+fitxategia idazketatik babestuta dago
+; file is write protected
+;
+MSG_ERROR_READ_PROTECTED
+fitxategia irakurketatik babestuta dago
+; file is read protected
+;
+MSG_ERROR_NOT_A_DOS_DISK
+ez da baliozko DOS disko bat
+; not a valid DOS disk
+;
+MSG_ERROR_NO_DISK
+ez dago diskorik unitatean
+; no disk in drive
+;
+MSG_ERROR_NO_MORE_ENTRIES
+ez dago sarrera gehiagorik direktorioan
+; no more entries in directory
+;
+MSG_ERROR_IS_SOFT_LINK
+objektua esteka biguna da
+; object is soft link
+;
+MSG_ERROR_OBJECT_LINKED
+objektua estekatuta dago
+; object is linked
+;
+MSG_ERROR_BAD_HUNK
+karga-fitxategiaren hunk okerra
+; bad loadfile hunk
+;
+MSG_ERROR_NOT_IMPLEMENTED
+funtzioa ez dago inplementatuta
+; function not implemented
+;
+MSG_ERROR_RECORD_NOT_LOCKED
+erregistroa ez dago blokeatuta
+; record not locked
+;
+MSG_ERROR_LOCK_COLLISION
+erregistro-blokeoen talka
+; record lock collision
+;
+MSG_ERROR_LOCK_TIMEOUT
+erregistro-blokeoaren denbora agortu da
+; record lock timeout
+;
+MSG_ERROR_UNLOCK_ERROR
+erregistroa desblokeatzeko errorea
+; record unlock error
+;
+MSG_ERROR_BUFFER_OVERFLOW
+buffer gainezkatzea
+; buffer overflow
+;
+MSG_ERROR_BREAK
+***Eten
+; ***Break
+;
+MSG_ERROR_NOT_EXECUTABLE
+fitxategia ez da exekutagarria
+; file not executable
+;
+MSG_STRING_DISK_NOT_VALIDATED
+"%s" bolumena ez dago balioztatuta
+; Volume "%s" is not validated
+;
+MSG_STRING_DISK_WRITE_PROTECTED
+"%s" bolumena idazketatik babestuta dago
+; Volume "%s" is write protected
+;
+MSG_STRING_DEVICE_NOT_MOUNTED_INSERT
+Mesedez, sartu "%s" bolumena edozein unitatetan
+; Please insert volume "%s" in any drive
+;
+MSG_STRING_DEVICE_NOT_MOUNTED_REPLACE
+Mesedez, sartu berriro "%s" bolumena edozein unitatetan
+; Please replace volume "%s" in any drive
+;
+MSG_STRING_DEVICE_NOT_MOUNTED_REPLACE_TARGET
+Mesedez, sartu berriro "%s" bolumena "%s" unitatean
+; Please replace volume "%s" in "%s"
+;
+MSG_STRING_DISK_FULL
+"%s" bolumena beteta dago
+; Volume "%s" is full
+;
+MSG_STRING_NOT_A_DOS_DISK
+Ez dago DOS diskorik "%s" unitatean
+; Not a DOS disk in "%s"
+;
+MSG_STRING_NO_DISK
+Ez dago diskorik "%s" unitatean
+; No disk present in "%s"
+;
+MSG_STRING_ABORT_BUSY
+"%s" bolumena "%s" unitatean berriro sartu BEHAR duzu!
+; You MUST replace volume "%s" in "%s"!
+;
+MSG_STRING_ABORT_DISK_ERROR
+"%s" bolumenak irakurketa/idazketa errore bat du
+; Volume "%s" has a read/write error
+;
+MSG_STRING_RETRY
+Saiatu berriro
+; Retry
+;
+MSG_STRING_CANCEL
+Deuseztu
+; Cancel
+;
+MSG_STRING_REQUESTTITLE
+Sistemaren eskatzailea
+; System requester
+;
+MSG_ERROR_NO_MATCHING_ELSEENDIF
+ez dago bat datorren Else edo EndIf-ik
+; no matching Else or EndIf
+;
+MSG_ERROR_SCRIPT_ONLY
+komando hau komando-fitxategietan bakarrik erabiltzekoa da
+; this command is supposed to be used in command files only
+;
+MSG_ERROR_UNKNOWN
+definitu gabeko errorea
+; undefined error
+;

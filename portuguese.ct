@@ -1,0 +1,260 @@
+## version $VER: dos.catalog 1.0 (06.08.2026)
+## language português
+## codeset 0
+;
+MSG_ERROR_NO_FREE_STORE
+memória disponível insuficiente
+; not enough memory available
+;
+MSG_ERROR_TASK_TABLE_FULL
+tabela de processos cheia
+; process table full
+;
+MSG_ERROR_BAD_TEMPLATE
+modelo inválido
+; bad template
+;
+MSG_ERROR_BAD_NUMBER
+número inválido
+; bad number
+;
+MSG_ERROR_REQUIRED_ARG_MISSING
+falta um argumento obrigatório
+; required argument missing
+;
+MSG_ERROR_KEY_NEEDS_ARG
+falta o valor a seguir à palavra-chave
+; value after keyword missing
+;
+MSG_ERROR_TOO_MANY_ARGS
+número de argumentos errado
+; wrong number of arguments
+;
+MSG_ERROR_UNMATCHED_QUOTES
+aspas não emparelhadas
+; unmatched quotes
+;
+MSG_ERROR_LINE_TOO_LONG
+linha de argumentos inválida ou demasiado longa
+; argument line invalid or too long
+;
+MSG_ERROR_FILE_NOT_OBJECT
+o ficheiro não é executável
+; file is not executable
+;
+MSG_ERROR_INVALID_RESIDENT_LIBRARY
+biblioteca residente inválida
+; invalid resident library
+;
+MSG_ERROR_NO_DEFAULT_DIR
+não há directório predefinido
+; no default directory
+;
+MSG_ERROR_OBJECT_IN_USE
+o objecto está em uso
+; object is in use
+;
+MSG_ERROR_OBJECT_EXISTS
+o objecto já existe
+; object already exists
+;
+MSG_ERROR_DIR_NOT_FOUND
+directório não encontrado
+; directory not found
+;
+MSG_ERROR_OBJECT_NOT_FOUND
+objecto não encontrado
+; object not found
+;
+MSG_ERROR_BAD_STREAM_NAME
+descrição de janela inválida
+; invalid window description
+;
+MSG_ERROR_OBJECT_TOO_LARGE
+objecto demasiado grande
+; object too large
+;
+MSG_ERROR_ACTION_NOT_KNOWN
+tipo de acção do sistema de ficheiros desconhecido
+; filesystem action type unknown
+;
+MSG_ERROR_INVALID_COMPONENT_NAME
+nome de objecto inválido
+; object name invalid
+;
+MSG_ERROR_INVALID_LOCK
+lock de objecto inválido
+; invalid object lock
+;
+MSG_ERROR_OBJECT_WRONG_TYPE
+o objecto não é do tipo requerido
+; object is not of required type
+;
+MSG_ERROR_DISK_NOT_VALIDATED
+disco não validado
+; disk not validated
+;
+MSG_ERROR_DISK_WRITE_PROTECTED
+o disco está protegido contra escrita
+; disk is write-protected
+;
+MSG_ERROR_RENAME_ACROSS_DEVICES
+tentativa de renomear entre dispositivos
+; rename across devices attempted
+;
+MSG_ERROR_DIRECTORY_NOT_EMPTY
+directório não vazio
+; directory not empty
+;
+MSG_ERROR_TOO_MANY_LEVELS
+demasiados níveis
+; too many levels
+;
+MSG_ERROR_DEVICE_NOT_MOUNTED
+o dispositivo (ou volume) não está montado
+; device (or volume) is not mounted
+;
+MSG_ERROR_SEEK_ERROR
+falha no seek
+; seek failure
+;
+MSG_ERROR_COMMENT_TOO_BIG
+o comentário é demasiado longo
+; comment is too long
+;
+MSG_ERROR_DISK_FULL
+o disco está cheio
+; disk is full
+;
+MSG_ERROR_DELETE_PROTECTED
+o objecto está protegido contra eliminação
+; object is protected from deletion
+;
+MSG_ERROR_WRITE_PROTECTED
+o ficheiro está protegido contra escrita
+; file is write protected
+;
+MSG_ERROR_READ_PROTECTED
+o ficheiro está protegido contra leitura
+; file is read protected
+;
+MSG_ERROR_NOT_A_DOS_DISK
+não é um disco DOS válido
+; not a valid DOS disk
+;
+MSG_ERROR_NO_DISK
+não há disco na unidade
+; no disk in drive
+;
+MSG_ERROR_NO_MORE_ENTRIES
+não há mais entradas no directório
+; no more entries in directory
+;
+MSG_ERROR_IS_SOFT_LINK
+o objecto é um soft link
+; object is soft link
+;
+MSG_ERROR_OBJECT_LINKED
+o objecto está ligado
+; object is linked
+;
+MSG_ERROR_BAD_HUNK
+hunk de loadfile inválido
+; bad loadfile hunk
+;
+MSG_ERROR_NOT_IMPLEMENTED
+função não implementada
+; function not implemented
+;
+MSG_ERROR_RECORD_NOT_LOCKED
+registo não bloqueado
+; record not locked
+;
+MSG_ERROR_LOCK_COLLISION
+colisão de locks de registo
+; record lock collision
+;
+MSG_ERROR_LOCK_TIMEOUT
+tempo esgotado no lock de registo
+; record lock timeout
+;
+MSG_ERROR_UNLOCK_ERROR
+erro ao desbloquear o registo
+; record unlock error
+;
+MSG_ERROR_BUFFER_OVERFLOW
+overflow do buffer
+; buffer overflow
+;
+MSG_ERROR_BREAK
+***Interrupção
+; ***Break
+;
+MSG_ERROR_NOT_EXECUTABLE
+ficheiro não executável
+; file not executable
+;
+MSG_STRING_DISK_NOT_VALIDATED
+O volume "%s" não está validado
+; Volume "%s" is not validated
+;
+MSG_STRING_DISK_WRITE_PROTECTED
+O volume "%s" está protegido contra escrita
+; Volume "%s" is write protected
+;
+MSG_STRING_DEVICE_NOT_MOUNTED_INSERT
+Por favor insira o volume "%s" em qualquer unidade
+; Please insert volume "%s" in any drive
+;
+MSG_STRING_DEVICE_NOT_MOUNTED_REPLACE
+Por favor substitua o volume "%s" em qualquer unidade
+; Please replace volume "%s" in any drive
+;
+MSG_STRING_DEVICE_NOT_MOUNTED_REPLACE_TARGET
+Por favor substitua o volume "%s" em "%s"
+; Please replace volume "%s" in "%s"
+;
+MSG_STRING_DISK_FULL
+O volume "%s" está cheio
+; Volume "%s" is full
+;
+MSG_STRING_NOT_A_DOS_DISK
+Não há um disco DOS em "%s"
+; Not a DOS disk in "%s"
+;
+MSG_STRING_NO_DISK
+Não há disco em "%s"
+; No disk present in "%s"
+;
+MSG_STRING_ABORT_BUSY
+TEM de substituir o volume "%s" em "%s"!
+; You MUST replace volume "%s" in "%s"!
+;
+MSG_STRING_ABORT_DISK_ERROR
+O volume "%s" tem um erro de leitura/escrita
+; Volume "%s" has a read/write error
+;
+MSG_STRING_RETRY
+Repetir
+; Retry
+;
+MSG_STRING_CANCEL
+Cancelar
+; Cancel
+;
+MSG_STRING_REQUESTTITLE
+Requester do sistema
+; System requester
+;
+MSG_ERROR_NO_MATCHING_ELSEENDIF
+não há Else ou EndIf correspondente
+; no matching Else or EndIf
+;
+MSG_ERROR_SCRIPT_ONLY
+este comando destina-se a ser usado apenas em ficheiros de comandos
+; this command is supposed to be used in command files only
+;
+MSG_ERROR_UNKNOWN
+erro indefinido
+; undefined error
+;

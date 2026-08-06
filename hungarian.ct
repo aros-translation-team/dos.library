@@ -1,0 +1,260 @@
+## version $VER: dos.catalog 1.0 (06.08.2026)
+## language magyar
+## codeset 5
+;
+MSG_ERROR_NO_FREE_STORE
+nincs elég szabad memória
+; not enough memory available
+;
+MSG_ERROR_TASK_TABLE_FULL
+a folyamattábla megtelt
+; process table full
+;
+MSG_ERROR_BAD_TEMPLATE
+hibás sablon
+; bad template
+;
+MSG_ERROR_BAD_NUMBER
+hibás szám
+; bad number
+;
+MSG_ERROR_REQUIRED_ARG_MISSING
+hiányzó kötelezõ argumentum
+; required argument missing
+;
+MSG_ERROR_KEY_NEEDS_ARG
+hiányzó érték a kulcsszó után
+; value after keyword missing
+;
+MSG_ERROR_TOO_MANY_ARGS
+hibás argumentumszám
+; wrong number of arguments
+;
+MSG_ERROR_UNMATCHED_QUOTES
+páratlan idézõjel
+; unmatched quotes
+;
+MSG_ERROR_LINE_TOO_LONG
+az argumentumsor érvénytelen vagy túl hosszú
+; argument line invalid or too long
+;
+MSG_ERROR_FILE_NOT_OBJECT
+a fájl nem futtatható
+; file is not executable
+;
+MSG_ERROR_INVALID_RESIDENT_LIBRARY
+érvénytelen rezidens library
+; invalid resident library
+;
+MSG_ERROR_NO_DEFAULT_DIR
+nincs alapértelmezett könyvtár
+; no default directory
+;
+MSG_ERROR_OBJECT_IN_USE
+az objektum használatban van
+; object is in use
+;
+MSG_ERROR_OBJECT_EXISTS
+az objektum már létezik
+; object already exists
+;
+MSG_ERROR_DIR_NOT_FOUND
+a könyvtár nem található
+; directory not found
+;
+MSG_ERROR_OBJECT_NOT_FOUND
+az objektum nem található
+; object not found
+;
+MSG_ERROR_BAD_STREAM_NAME
+érvénytelen ablakleírás
+; invalid window description
+;
+MSG_ERROR_OBJECT_TOO_LARGE
+az objektum túl nagy
+; object too large
+;
+MSG_ERROR_ACTION_NOT_KNOWN
+ismeretlen fájlrendszermûvelet-típus
+; filesystem action type unknown
+;
+MSG_ERROR_INVALID_COMPONENT_NAME
+érvénytelen objektumnév
+; object name invalid
+;
+MSG_ERROR_INVALID_LOCK
+érvénytelen objektumzár
+; invalid object lock
+;
+MSG_ERROR_OBJECT_WRONG_TYPE
+az objektum nem a kívánt típusú
+; object is not of required type
+;
+MSG_ERROR_DISK_NOT_VALIDATED
+a lemez nincs ellenõrizve
+; disk not validated
+;
+MSG_ERROR_DISK_WRITE_PROTECTED
+a lemez írásvédett
+; disk is write-protected
+;
+MSG_ERROR_RENAME_ACROSS_DEVICES
+átnevezési kísérlet eszközök között
+; rename across devices attempted
+;
+MSG_ERROR_DIRECTORY_NOT_EMPTY
+a könyvtár nem üres
+; directory not empty
+;
+MSG_ERROR_TOO_MANY_LEVELS
+túl sok szint
+; too many levels
+;
+MSG_ERROR_DEVICE_NOT_MOUNTED
+az eszköz (vagy kötet) nincs csatolva
+; device (or volume) is not mounted
+;
+MSG_ERROR_SEEK_ERROR
+pozicionálási hiba
+; seek failure
+;
+MSG_ERROR_COMMENT_TOO_BIG
+a megjegyzés túl hosszú
+; comment is too long
+;
+MSG_ERROR_DISK_FULL
+a lemez megtelt
+; disk is full
+;
+MSG_ERROR_DELETE_PROTECTED
+az objektum törlés ellen védett
+; object is protected from deletion
+;
+MSG_ERROR_WRITE_PROTECTED
+a fájl írásvédett
+; file is write protected
+;
+MSG_ERROR_READ_PROTECTED
+a fájl olvasás ellen védett
+; file is read protected
+;
+MSG_ERROR_NOT_A_DOS_DISK
+nem érvényes DOS lemez
+; not a valid DOS disk
+;
+MSG_ERROR_NO_DISK
+nincs lemez a meghajtóban
+; no disk in drive
+;
+MSG_ERROR_NO_MORE_ENTRIES
+nincs több bejegyzés a könyvtárban
+; no more entries in directory
+;
+MSG_ERROR_IS_SOFT_LINK
+az objektum szimbolikus link
+; object is soft link
+;
+MSG_ERROR_OBJECT_LINKED
+az objektumra link mutat
+; object is linked
+;
+MSG_ERROR_BAD_HUNK
+hibás hunk a betöltendõ fájlban
+; bad loadfile hunk
+;
+MSG_ERROR_NOT_IMPLEMENTED
+a függvény nincs megvalósítva
+; function not implemented
+;
+MSG_ERROR_RECORD_NOT_LOCKED
+a rekord nincs zárolva
+; record not locked
+;
+MSG_ERROR_LOCK_COLLISION
+rekordzár-ütközés
+; record lock collision
+;
+MSG_ERROR_LOCK_TIMEOUT
+rekordzár idõtúllépés
+; record lock timeout
+;
+MSG_ERROR_UNLOCK_ERROR
+rekordzár-feloldási hiba
+; record unlock error
+;
+MSG_ERROR_BUFFER_OVERFLOW
+puffertúlcsordulás
+; buffer overflow
+;
+MSG_ERROR_BREAK
+***Megszakítás
+; ***Break
+;
+MSG_ERROR_NOT_EXECUTABLE
+a fájl nem futtatható
+; file not executable
+;
+MSG_STRING_DISK_NOT_VALIDATED
+A(z) "%s" kötet nincs ellenõrizve
+; Volume "%s" is not validated
+;
+MSG_STRING_DISK_WRITE_PROTECTED
+A(z) "%s" kötet írásvédett
+; Volume "%s" is write protected
+;
+MSG_STRING_DEVICE_NOT_MOUNTED_INSERT
+Helyezd be a(z) "%s" kötetet bármelyik meghajtóba
+; Please insert volume "%s" in any drive
+;
+MSG_STRING_DEVICE_NOT_MOUNTED_REPLACE
+Helyezd vissza a(z) "%s" kötetet bármelyik meghajtóba
+; Please replace volume "%s" in any drive
+;
+MSG_STRING_DEVICE_NOT_MOUNTED_REPLACE_TARGET
+Helyezd vissza a(z) "%s" kötetet ebbe: "%s"
+; Please replace volume "%s" in "%s"
+;
+MSG_STRING_DISK_FULL
+A(z) "%s" kötet megtelt
+; Volume "%s" is full
+;
+MSG_STRING_NOT_A_DOS_DISK
+Nem DOS lemez van itt: "%s"
+; Not a DOS disk in "%s"
+;
+MSG_STRING_NO_DISK
+Nincs lemez itt: "%s"
+; No disk present in "%s"
+;
+MSG_STRING_ABORT_BUSY
+Vissza KELL helyezned a(z) "%s" kötetet ebbe: "%s"!
+; You MUST replace volume "%s" in "%s"!
+;
+MSG_STRING_ABORT_DISK_ERROR
+A(z) "%s" köteten írási/olvasási hiba történt
+; Volume "%s" has a read/write error
+;
+MSG_STRING_RETRY
+Újra
+; Retry
+;
+MSG_STRING_CANCEL
+Mégsem
+; Cancel
+;
+MSG_STRING_REQUESTTITLE
+Rendszerüzenet
+; System requester
+;
+MSG_ERROR_NO_MATCHING_ELSEENDIF
+nincs hozzá tartozó Else vagy EndIf
+; no matching Else or EndIf
+;
+MSG_ERROR_SCRIPT_ONLY
+ez a parancs csak parancsfájlokban használható
+; this command is supposed to be used in command files only
+;
+MSG_ERROR_UNKNOWN
+ismeretlen hiba
+; undefined error
+;

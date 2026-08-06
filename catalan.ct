@@ -1,0 +1,260 @@
+## version $VER: dos.catalog 1.0 (06.08.2026)
+## language català
+## codeset 0
+;
+MSG_ERROR_NO_FREE_STORE
+no hi ha prou memòria disponible
+; not enough memory available
+;
+MSG_ERROR_TASK_TABLE_FULL
+taula de processos plena
+; process table full
+;
+MSG_ERROR_BAD_TEMPLATE
+plantilla incorrecta
+; bad template
+;
+MSG_ERROR_BAD_NUMBER
+número incorrecte
+; bad number
+;
+MSG_ERROR_REQUIRED_ARG_MISSING
+falta un argument requerit
+; required argument missing
+;
+MSG_ERROR_KEY_NEEDS_ARG
+falta el valor després de la paraula clau
+; value after keyword missing
+;
+MSG_ERROR_TOO_MANY_ARGS
+nombre d'arguments incorrecte
+; wrong number of arguments
+;
+MSG_ERROR_UNMATCHED_QUOTES
+cometes desaparellades
+; unmatched quotes
+;
+MSG_ERROR_LINE_TOO_LONG
+línia d'arguments no vàlida o massa llarga
+; argument line invalid or too long
+;
+MSG_ERROR_FILE_NOT_OBJECT
+el fitxer no és executable
+; file is not executable
+;
+MSG_ERROR_INVALID_RESIDENT_LIBRARY
+biblioteca resident no vàlida
+; invalid resident library
+;
+MSG_ERROR_NO_DEFAULT_DIR
+no hi ha directori per defecte
+; no default directory
+;
+MSG_ERROR_OBJECT_IN_USE
+l'objecte està en ús
+; object is in use
+;
+MSG_ERROR_OBJECT_EXISTS
+l'objecte ja existeix
+; object already exists
+;
+MSG_ERROR_DIR_NOT_FOUND
+no s'ha trobat el directori
+; directory not found
+;
+MSG_ERROR_OBJECT_NOT_FOUND
+no s'ha trobat l'objecte
+; object not found
+;
+MSG_ERROR_BAD_STREAM_NAME
+descripció de finestra no vàlida
+; invalid window description
+;
+MSG_ERROR_OBJECT_TOO_LARGE
+objecte massa gran
+; object too large
+;
+MSG_ERROR_ACTION_NOT_KNOWN
+tipus d'acció de sistema de fitxers desconegut
+; filesystem action type unknown
+;
+MSG_ERROR_INVALID_COMPONENT_NAME
+nom d'objecte no vàlid
+; object name invalid
+;
+MSG_ERROR_INVALID_LOCK
+bloqueig d'objecte no vàlid
+; invalid object lock
+;
+MSG_ERROR_OBJECT_WRONG_TYPE
+l'objecte no és del tipus requerit
+; object is not of required type
+;
+MSG_ERROR_DISK_NOT_VALIDATED
+el disc no està validat
+; disk not validated
+;
+MSG_ERROR_DISK_WRITE_PROTECTED
+el disc està protegit contra escriptura
+; disk is write-protected
+;
+MSG_ERROR_RENAME_ACROSS_DEVICES
+s'ha intentat canviar el nom entre dispositius
+; rename across devices attempted
+;
+MSG_ERROR_DIRECTORY_NOT_EMPTY
+el directori no és buit
+; directory not empty
+;
+MSG_ERROR_TOO_MANY_LEVELS
+massa nivells
+; too many levels
+;
+MSG_ERROR_DEVICE_NOT_MOUNTED
+el dispositiu (o volum) no està muntat
+; device (or volume) is not mounted
+;
+MSG_ERROR_SEEK_ERROR
+error de posicionament
+; seek failure
+;
+MSG_ERROR_COMMENT_TOO_BIG
+el comentari és massa llarg
+; comment is too long
+;
+MSG_ERROR_DISK_FULL
+el disc és ple
+; disk is full
+;
+MSG_ERROR_DELETE_PROTECTED
+l'objecte està protegit contra l'esborrat
+; object is protected from deletion
+;
+MSG_ERROR_WRITE_PROTECTED
+el fitxer està protegit contra escriptura
+; file is write protected
+;
+MSG_ERROR_READ_PROTECTED
+el fitxer està protegit contra lectura
+; file is read protected
+;
+MSG_ERROR_NOT_A_DOS_DISK
+no és un disc DOS vàlid
+; not a valid DOS disk
+;
+MSG_ERROR_NO_DISK
+no hi ha disc a la unitat
+; no disk in drive
+;
+MSG_ERROR_NO_MORE_ENTRIES
+no hi ha més entrades al directori
+; no more entries in directory
+;
+MSG_ERROR_IS_SOFT_LINK
+l'objecte és un enllaç simbòlic
+; object is soft link
+;
+MSG_ERROR_OBJECT_LINKED
+l'objecte està enllaçat
+; object is linked
+;
+MSG_ERROR_BAD_HUNK
+hunk de càrrega incorrecte
+; bad loadfile hunk
+;
+MSG_ERROR_NOT_IMPLEMENTED
+funció no implementada
+; function not implemented
+;
+MSG_ERROR_RECORD_NOT_LOCKED
+el registre no està bloquejat
+; record not locked
+;
+MSG_ERROR_LOCK_COLLISION
+col·lisió de bloqueig de registre
+; record lock collision
+;
+MSG_ERROR_LOCK_TIMEOUT
+temps esgotat en bloqueig de registre
+; record lock timeout
+;
+MSG_ERROR_UNLOCK_ERROR
+error en desbloquejar el registre
+; record unlock error
+;
+MSG_ERROR_BUFFER_OVERFLOW
+desbordament de la memòria intermèdia
+; buffer overflow
+;
+MSG_ERROR_BREAK
+***Interrupció
+; ***Break
+;
+MSG_ERROR_NOT_EXECUTABLE
+fitxer no executable
+; file not executable
+;
+MSG_STRING_DISK_NOT_VALIDATED
+El volum "%s" no està validat
+; Volume "%s" is not validated
+;
+MSG_STRING_DISK_WRITE_PROTECTED
+El volum "%s" està protegit contra escriptura
+; Volume "%s" is write protected
+;
+MSG_STRING_DEVICE_NOT_MOUNTED_INSERT
+Inseriu el volum "%s" en qualsevol unitat
+; Please insert volume "%s" in any drive
+;
+MSG_STRING_DEVICE_NOT_MOUNTED_REPLACE
+Torneu a inserir el volum "%s" en qualsevol unitat
+; Please replace volume "%s" in any drive
+;
+MSG_STRING_DEVICE_NOT_MOUNTED_REPLACE_TARGET
+Torneu a inserir el volum "%s" a "%s"
+; Please replace volume "%s" in "%s"
+;
+MSG_STRING_DISK_FULL
+El volum "%s" és ple
+; Volume "%s" is full
+;
+MSG_STRING_NOT_A_DOS_DISK
+El disc a "%s" no és un disc DOS
+; Not a DOS disk in "%s"
+;
+MSG_STRING_NO_DISK
+No hi ha cap disc a "%s"
+; No disk present in "%s"
+;
+MSG_STRING_ABORT_BUSY
+HEU de tornar a inserir el volum "%s" a "%s"!
+; You MUST replace volume "%s" in "%s"!
+;
+MSG_STRING_ABORT_DISK_ERROR
+El volum "%s" té un error de lectura/escriptura
+; Volume "%s" has a read/write error
+;
+MSG_STRING_RETRY
+Reintentar
+; Retry
+;
+MSG_STRING_CANCEL
+Cancel.lar
+; Cancel
+;
+MSG_STRING_REQUESTTITLE
+Petició del sistema
+; System requester
+;
+MSG_ERROR_NO_MATCHING_ELSEENDIF
+no hi ha cap Else o EndIf corresponent
+; no matching Else or EndIf
+;
+MSG_ERROR_SCRIPT_ONLY
+aquesta ordre només s'ha d'usar en fitxers d'ordres
+; this command is supposed to be used in command files only
+;
+MSG_ERROR_UNKNOWN
+error no definit
+; undefined error
+;

@@ -1,0 +1,260 @@
+## version $VER: dos.catalog 1.0 (06.08.2026)
+## language suomi
+## codeset 0
+;
+MSG_ERROR_NO_FREE_STORE
+muistia ei ole tarpeeksi
+; not enough memory available
+;
+MSG_ERROR_TASK_TABLE_FULL
+prosessitaulu on täynnä
+; process table full
+;
+MSG_ERROR_BAD_TEMPLATE
+virheellinen malli
+; bad template
+;
+MSG_ERROR_BAD_NUMBER
+virheellinen luku
+; bad number
+;
+MSG_ERROR_REQUIRED_ARG_MISSING
+vaadittu argumentti puuttuu
+; required argument missing
+;
+MSG_ERROR_KEY_NEEDS_ARG
+avainsanan jälkeen puuttuu arvo
+; value after keyword missing
+;
+MSG_ERROR_TOO_MANY_ARGS
+väärä määrä argumentteja
+; wrong number of arguments
+;
+MSG_ERROR_UNMATCHED_QUOTES
+pariton lainausmerkki
+; unmatched quotes
+;
+MSG_ERROR_LINE_TOO_LONG
+argumenttirivi on virheellinen tai liian pitkä
+; argument line invalid or too long
+;
+MSG_ERROR_FILE_NOT_OBJECT
+tiedosto ei ole suoritettava
+; file is not executable
+;
+MSG_ERROR_INVALID_RESIDENT_LIBRARY
+virheellinen resident-kirjasto
+; invalid resident library
+;
+MSG_ERROR_NO_DEFAULT_DIR
+ei oletushakemistoa
+; no default directory
+;
+MSG_ERROR_OBJECT_IN_USE
+objekti on käytössä
+; object is in use
+;
+MSG_ERROR_OBJECT_EXISTS
+objekti on jo olemassa
+; object already exists
+;
+MSG_ERROR_DIR_NOT_FOUND
+hakemistoa ei löydy
+; directory not found
+;
+MSG_ERROR_OBJECT_NOT_FOUND
+objektia ei löydy
+; object not found
+;
+MSG_ERROR_BAD_STREAM_NAME
+virheellinen ikkunan määrittely
+; invalid window description
+;
+MSG_ERROR_OBJECT_TOO_LARGE
+objekti on liian suuri
+; object too large
+;
+MSG_ERROR_ACTION_NOT_KNOWN
+tuntematon tiedostojärjestelmän toiminto
+; filesystem action type unknown
+;
+MSG_ERROR_INVALID_COMPONENT_NAME
+objektin nimi on virheellinen
+; object name invalid
+;
+MSG_ERROR_INVALID_LOCK
+virheellinen objektin lukko
+; invalid object lock
+;
+MSG_ERROR_OBJECT_WRONG_TYPE
+objekti ei ole vaadittua tyyppiä
+; object is not of required type
+;
+MSG_ERROR_DISK_NOT_VALIDATED
+levyä ei ole tarkistettu
+; disk not validated
+;
+MSG_ERROR_DISK_WRITE_PROTECTED
+levy on kirjoitussuojattu
+; disk is write-protected
+;
+MSG_ERROR_RENAME_ACROSS_DEVICES
+yritettiin nimetä uudelleen laitteiden välillä
+; rename across devices attempted
+;
+MSG_ERROR_DIRECTORY_NOT_EMPTY
+hakemisto ei ole tyhjä
+; directory not empty
+;
+MSG_ERROR_TOO_MANY_LEVELS
+liian monta tasoa
+; too many levels
+;
+MSG_ERROR_DEVICE_NOT_MOUNTED
+laitetta (tai asemaa) ei ole liitetty
+; device (or volume) is not mounted
+;
+MSG_ERROR_SEEK_ERROR
+siirtyminen epäonnistui
+; seek failure
+;
+MSG_ERROR_COMMENT_TOO_BIG
+kommentti on liian pitkä
+; comment is too long
+;
+MSG_ERROR_DISK_FULL
+levy on täynnä
+; disk is full
+;
+MSG_ERROR_DELETE_PROTECTED
+objekti on suojattu poistolta
+; object is protected from deletion
+;
+MSG_ERROR_WRITE_PROTECTED
+tiedosto on kirjoitussuojattu
+; file is write protected
+;
+MSG_ERROR_READ_PROTECTED
+tiedosto on lukusuojattu
+; file is read protected
+;
+MSG_ERROR_NOT_A_DOS_DISK
+ei kelvollinen DOS-levy
+; not a valid DOS disk
+;
+MSG_ERROR_NO_DISK
+asemassa ei ole levyä
+; no disk in drive
+;
+MSG_ERROR_NO_MORE_ENTRIES
+hakemistossa ei ole enempää kohteita
+; no more entries in directory
+;
+MSG_ERROR_IS_SOFT_LINK
+objekti on symbolinen linkki
+; object is soft link
+;
+MSG_ERROR_OBJECT_LINKED
+objekti on linkitetty
+; object is linked
+;
+MSG_ERROR_BAD_HUNK
+virheellinen loadfile-hunk
+; bad loadfile hunk
+;
+MSG_ERROR_NOT_IMPLEMENTED
+toimintoa ei ole toteutettu
+; function not implemented
+;
+MSG_ERROR_RECORD_NOT_LOCKED
+tietuetta ei ole lukittu
+; record not locked
+;
+MSG_ERROR_LOCK_COLLISION
+tietueen lukituksen ristiriita
+; record lock collision
+;
+MSG_ERROR_LOCK_TIMEOUT
+tietueen lukituksen aikakatkaisu
+; record lock timeout
+;
+MSG_ERROR_UNLOCK_ERROR
+tietueen lukituksen avaus epäonnistui
+; record unlock error
+;
+MSG_ERROR_BUFFER_OVERFLOW
+puskurin ylivuoto
+; buffer overflow
+;
+MSG_ERROR_BREAK
+***Keskeytys
+; ***Break
+;
+MSG_ERROR_NOT_EXECUTABLE
+tiedosto ei ole suoritettava
+; file not executable
+;
+MSG_STRING_DISK_NOT_VALIDATED
+Levyä "%s" ei ole tarkistettu
+; Volume "%s" is not validated
+;
+MSG_STRING_DISK_WRITE_PROTECTED
+Levy "%s" on kirjoitussuojattu
+; Volume "%s" is write protected
+;
+MSG_STRING_DEVICE_NOT_MOUNTED_INSERT
+Aseta levy "%s" johonkin asemaan
+; Please insert volume "%s" in any drive
+;
+MSG_STRING_DEVICE_NOT_MOUNTED_REPLACE
+Aseta levy "%s" takaisin johonkin asemaan
+; Please replace volume "%s" in any drive
+;
+MSG_STRING_DEVICE_NOT_MOUNTED_REPLACE_TARGET
+Aseta levy "%s" takaisin asemaan "%s"
+; Please replace volume "%s" in "%s"
+;
+MSG_STRING_DISK_FULL
+Levy "%s" on täynnä
+; Volume "%s" is full
+;
+MSG_STRING_NOT_A_DOS_DISK
+Asemassa "%s" ei ole DOS-levyä
+; Not a DOS disk in "%s"
+;
+MSG_STRING_NO_DISK
+Asemassa "%s" ei ole levyä
+; No disk present in "%s"
+;
+MSG_STRING_ABORT_BUSY
+Sinun TÄYTYY asettaa levy "%s" takaisin asemaan "%s"!
+; You MUST replace volume "%s" in "%s"!
+;
+MSG_STRING_ABORT_DISK_ERROR
+Levyllä "%s" on luku-/kirjoitusvirhe
+; Volume "%s" has a read/write error
+;
+MSG_STRING_RETRY
+Yritä uudelleen
+; Retry
+;
+MSG_STRING_CANCEL
+Peru
+; Cancel
+;
+MSG_STRING_REQUESTTITLE
+Järjestelmävalitsin
+; System requester
+;
+MSG_ERROR_NO_MATCHING_ELSEENDIF
+vastaavaa Else- tai EndIf-lausetta ei löydy
+; no matching Else or EndIf
+;
+MSG_ERROR_SCRIPT_ONLY
+tätä komentoa voi käyttää vain komentotiedostoissa
+; this command is supposed to be used in command files only
+;
+MSG_ERROR_UNKNOWN
+määrittelemätön virhe
+; undefined error
+;

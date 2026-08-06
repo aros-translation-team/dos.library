@@ -1,0 +1,260 @@
+## version $VER: dos.catalog 1.0 (06.08.2026)
+## language nederlands
+## codeset 0
+;
+MSG_ERROR_NO_FREE_STORE
+onvoldoende geheugen beschikbaar
+; not enough memory available
+;
+MSG_ERROR_TASK_TABLE_FULL
+procestabel is vol
+; process table full
+;
+MSG_ERROR_BAD_TEMPLATE
+ongeldig sjabloon
+; bad template
+;
+MSG_ERROR_BAD_NUMBER
+ongeldig getal
+; bad number
+;
+MSG_ERROR_REQUIRED_ARG_MISSING
+vereist argument ontbreekt
+; required argument missing
+;
+MSG_ERROR_KEY_NEEDS_ARG
+waarde na sleutelwoord ontbreekt
+; value after keyword missing
+;
+MSG_ERROR_TOO_MANY_ARGS
+verkeerd aantal argumenten
+; wrong number of arguments
+;
+MSG_ERROR_UNMATCHED_QUOTES
+ongepaarde aanhalingstekens
+; unmatched quotes
+;
+MSG_ERROR_LINE_TOO_LONG
+argumentregel ongeldig of te lang
+; argument line invalid or too long
+;
+MSG_ERROR_FILE_NOT_OBJECT
+bestand is niet uitvoerbaar
+; file is not executable
+;
+MSG_ERROR_INVALID_RESIDENT_LIBRARY
+ongeldige residente library
+; invalid resident library
+;
+MSG_ERROR_NO_DEFAULT_DIR
+geen standaardmap
+; no default directory
+;
+MSG_ERROR_OBJECT_IN_USE
+object is in gebruik
+; object is in use
+;
+MSG_ERROR_OBJECT_EXISTS
+object bestaat al
+; object already exists
+;
+MSG_ERROR_DIR_NOT_FOUND
+map niet gevonden
+; directory not found
+;
+MSG_ERROR_OBJECT_NOT_FOUND
+object niet gevonden
+; object not found
+;
+MSG_ERROR_BAD_STREAM_NAME
+ongeldige vensterbeschrijving
+; invalid window description
+;
+MSG_ERROR_OBJECT_TOO_LARGE
+object te groot
+; object too large
+;
+MSG_ERROR_ACTION_NOT_KNOWN
+onbekend bestandssysteem-actietype
+; filesystem action type unknown
+;
+MSG_ERROR_INVALID_COMPONENT_NAME
+objectnaam ongeldig
+; object name invalid
+;
+MSG_ERROR_INVALID_LOCK
+ongeldige objectlock
+; invalid object lock
+;
+MSG_ERROR_OBJECT_WRONG_TYPE
+object is niet van het vereiste type
+; object is not of required type
+;
+MSG_ERROR_DISK_NOT_VALIDATED
+schijf niet gevalideerd
+; disk not validated
+;
+MSG_ERROR_DISK_WRITE_PROTECTED
+schijf is schrijfbeveiligd
+; disk is write-protected
+;
+MSG_ERROR_RENAME_ACROSS_DEVICES
+hernoemen over apparaten heen geprobeerd
+; rename across devices attempted
+;
+MSG_ERROR_DIRECTORY_NOT_EMPTY
+map is niet leeg
+; directory not empty
+;
+MSG_ERROR_TOO_MANY_LEVELS
+te veel niveaus
+; too many levels
+;
+MSG_ERROR_DEVICE_NOT_MOUNTED
+apparaat (of volume) is niet gemount
+; device (or volume) is not mounted
+;
+MSG_ERROR_SEEK_ERROR
+fout bij positioneren
+; seek failure
+;
+MSG_ERROR_COMMENT_TOO_BIG
+commentaar is te lang
+; comment is too long
+;
+MSG_ERROR_DISK_FULL
+schijf is vol
+; disk is full
+;
+MSG_ERROR_DELETE_PROTECTED
+object is beveiligd tegen verwijderen
+; object is protected from deletion
+;
+MSG_ERROR_WRITE_PROTECTED
+bestand is schrijfbeveiligd
+; file is write protected
+;
+MSG_ERROR_READ_PROTECTED
+bestand is leesbeveiligd
+; file is read protected
+;
+MSG_ERROR_NOT_A_DOS_DISK
+geen geldige DOS-schijf
+; not a valid DOS disk
+;
+MSG_ERROR_NO_DISK
+geen schijf in station
+; no disk in drive
+;
+MSG_ERROR_NO_MORE_ENTRIES
+geen verdere items in map
+; no more entries in directory
+;
+MSG_ERROR_IS_SOFT_LINK
+object is een soft link
+; object is soft link
+;
+MSG_ERROR_OBJECT_LINKED
+object is gelinkt
+; object is linked
+;
+MSG_ERROR_BAD_HUNK
+ongeldige hunk in laadbestand
+; bad loadfile hunk
+;
+MSG_ERROR_NOT_IMPLEMENTED
+functie niet geïmplementeerd
+; function not implemented
+;
+MSG_ERROR_RECORD_NOT_LOCKED
+record niet vergrendeld
+; record not locked
+;
+MSG_ERROR_LOCK_COLLISION
+conflict bij recordvergrendeling
+; record lock collision
+;
+MSG_ERROR_LOCK_TIMEOUT
+time-out bij recordvergrendeling
+; record lock timeout
+;
+MSG_ERROR_UNLOCK_ERROR
+fout bij ontgrendelen van record
+; record unlock error
+;
+MSG_ERROR_BUFFER_OVERFLOW
+bufferoverloop
+; buffer overflow
+;
+MSG_ERROR_BREAK
+***Onderbreking
+; ***Break
+;
+MSG_ERROR_NOT_EXECUTABLE
+bestand niet uitvoerbaar
+; file not executable
+;
+MSG_STRING_DISK_NOT_VALIDATED
+Volume "%s" is niet gevalideerd
+; Volume "%s" is not validated
+;
+MSG_STRING_DISK_WRITE_PROTECTED
+Volume "%s" is schrijfbeveiligd
+; Volume "%s" is write protected
+;
+MSG_STRING_DEVICE_NOT_MOUNTED_INSERT
+Plaats volume "%s" in een willekeurig station
+; Please insert volume "%s" in any drive
+;
+MSG_STRING_DEVICE_NOT_MOUNTED_REPLACE
+Vervang volume "%s" in een willekeurig station
+; Please replace volume "%s" in any drive
+;
+MSG_STRING_DEVICE_NOT_MOUNTED_REPLACE_TARGET
+Vervang volume "%s" in "%s"
+; Please replace volume "%s" in "%s"
+;
+MSG_STRING_DISK_FULL
+Volume "%s" is vol
+; Volume "%s" is full
+;
+MSG_STRING_NOT_A_DOS_DISK
+Geen DOS-schijf in "%s"
+; Not a DOS disk in "%s"
+;
+MSG_STRING_NO_DISK
+Geen schijf aanwezig in "%s"
+; No disk present in "%s"
+;
+MSG_STRING_ABORT_BUSY
+U MOET volume "%s" in "%s" vervangen!
+; You MUST replace volume "%s" in "%s"!
+;
+MSG_STRING_ABORT_DISK_ERROR
+Volume "%s" heeft een lees-/schrijffout
+; Volume "%s" has a read/write error
+;
+MSG_STRING_RETRY
+Opnieuw proberen
+; Retry
+;
+MSG_STRING_CANCEL
+Annuleer
+; Cancel
+;
+MSG_STRING_REQUESTTITLE
+Systeemmelding
+; System requester
+;
+MSG_ERROR_NO_MATCHING_ELSEENDIF
+geen bijbehorende Else of EndIf
+; no matching Else or EndIf
+;
+MSG_ERROR_SCRIPT_ONLY
+deze opdracht is alleen bedoeld voor gebruik in opdrachtbestanden
+; this command is supposed to be used in command files only
+;
+MSG_ERROR_UNKNOWN
+onbekende fout
+; undefined error
+;
